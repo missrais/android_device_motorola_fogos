@@ -101,3 +101,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
+
+# Bypass kernel VINTF check for 5.4 kernel on Android 16
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false

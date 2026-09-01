@@ -4,4 +4,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fogos.mk
+    $(LOCAL_DIR)/lineage_fogos.mk \
+    $(LOCAL_DIR)/alpha_fogos.mk
