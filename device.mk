@@ -22,6 +22,8 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
 # Overlays
+-include vendor/edithui/config.mk
+
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
     FrameworksResDeviceXT2363-8 \
@@ -101,3 +103,5 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
+
+DEVICE_PACKAGE_OVERLAYS += device/motorola/fogos/overlay-voltage

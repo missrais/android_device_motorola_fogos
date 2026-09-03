@@ -11,13 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fogos device
 $(call inherit-product, device/motorola/fogos/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common edith stuff.
+$(call inherit-product, vendor/edith/config/common.mk)
 
-# Signing keys
+# signing keys
 $(call inherit-product, vendor/priv-keys/keys/keys.mk)
 
-PRODUCT_NAME := lineage_fogos
+PRODUCT_NAME := edith_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
