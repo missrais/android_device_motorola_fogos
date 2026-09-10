@@ -19,6 +19,6 @@ clone_if_missing "git@github.com:missrais/proprietary_vendor_motorola_fogos.git"
 clone_if_missing "git@github.com:missrais/proprietary_vendor_motorola_sm6375-common.git" "lineage-23.2" "vendor/motorola/sm6375-common"
 clone_if_missing "git@github.com:missrais/android_kernel_motorola_sm6375.git" "lineage-23.2" "kernel/motorola/sm6375"
 # Additional repos
-clone_if_missing "https://github.com/LineageOS/android_hardware_motorola.git" "lineage-23.2" "hardware/motorola"
+clone_if_missing "https://github.com/project-moon-gazer/android_hardware_motorola.git" "lineage-23.2" "hardware/motorola"
 clone_if_missing "https://github.com/LineageOS/android_hardware_samsung_slsi_nfc.git" "" "hardware/samsung_slsi/nfc"
 clone_if_missing "git@github.com:missrais/keys.git" "main" "vendor/priv-keys/keys"
